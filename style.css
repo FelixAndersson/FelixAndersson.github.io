@@ -27,12 +27,12 @@ nav{
 display:flex;
 }
 main{
-  width: 90%;
+  width: 85%;
   height: 280px;
 
 }
 aside{
-  width: 10%;
+  width: 15%;
   height: 280px;
   background-color:#eee;
 
