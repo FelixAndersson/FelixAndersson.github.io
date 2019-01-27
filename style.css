@@ -8,42 +8,108 @@ width: 100%;
 
 header{
   width: 100%;
-  height: 150px;
-  background-color: #AC11FF;
+  height: 20px;
+  background: linear-gradient(to bottom, #000000 0%, #808080 105%);
   text-align: center;
   color: #black;
-  font-size: 40px;
-  font-family: 'Courgette', cursive;
+  font-size: 10px;
+  font-family: 'Roboto Slab', serif;
+
 
 }
 nav{
   width: 100%;
-  height: 80px;
-  background-color: #D704E8;
+  height: 120px;
+  background-color: #eee;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
 
+
+
+}
+#space{
+  background-color: white;
+  width: 100%;
+  height: 10px;
+}
+#spacebar {
+  width: 10px;
+  height: 335px;
+  background-color: white;
 }
  #mainwrapper{
 
 display:flex;
+font-family: 'Roboto Slab', serif;
+
 }
 main{
   width: 85%;
-  height: 280px;
+  height: 335px;
+  background-color: #eee;
+  font-family: 'Roboto Slab', serif;
+
 
 }
+#stor{
+  font-size: 14.5px;
+}
+#disk{
+  font-size: 14.5px;
+}
+#grafik{
+  font-size: 13.2px;
+}
+#right{
+
+background-color: white;
+width: 30%
+
+
+
+
+}
+
 aside{
   width: 15%;
-  height: 280px;
+  height: 335px;
   background-color:#eee;
+  font-family: 'Roboto Slab', serif;
+
 
 
 }
 footer{
   width: 100%;
-  height: 100px;
-  background-color: #FF04A4;
+  height: 80px;
+  background-color: #eee;
+  font-family: 'Roboto Slab', serif;
+
 }
+
+ul{
+padding: 0;
+  list-style-type:none;
+  margin-top: 0px;
+  font-family: 'Roboto Slab', serif;
+
+
+
+
+}
+
+li{
+  height: 40px;
+  width: 93%;
+padding-left: 8px;
+
+  border: solid 1px;
+
+}
+
 a{
+
   text-decoration: none;
   font-size: 20px;
 }
