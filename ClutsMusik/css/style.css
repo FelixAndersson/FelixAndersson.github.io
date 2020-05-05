@@ -1,0 +1,61 @@
+
+
+
+header {
+  grid-area: header;
+  background-color: red;
+
+
+}
+nav {
+  grid-area: nav;
+  background-color: black;
+
+
+}
+main {
+  grid-area: main;
+background-color: orange;
+}
+
+
+aside {
+  grid-area: aside;
+background-color: pink;
+
+}
+footer {
+  grid-area: footer;
+
+
+
+}
+
+#wrapper {
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows:25% 25% 25% 25%;
+  grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "main main main main"
+    "footer footer footer footer";
+}
+@media only screen and (max-width: 800px) {
+  main div{
+    width: 45%;
+    height: 15%;
+  }
+
+  #wrapper {
+    grid-template-columns: 100%;
+    grid-template-rows: 10% auto auto 5%;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+
+  }
+}
