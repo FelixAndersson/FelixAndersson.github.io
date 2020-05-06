@@ -3,7 +3,7 @@
 
 header {
   grid-area: header;
-  background-color: red;
+background: url('../imgs/clutsmuskbild.png') 0 0;
 
 
 }
@@ -50,7 +50,7 @@ footer {
 
   #wrapper {
     grid-template-columns: 100%;
-    grid-template-rows: 10% auto auto 5%;
+    grid-template-rows: 10% 20% auto 5%;
     grid-template-areas:
     "header"
     "nav"
