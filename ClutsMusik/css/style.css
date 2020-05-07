@@ -40,10 +40,10 @@ footer {
 }
 
 #wrapper {
-    height: 100vh;
+  height: 100vh;
   display: grid;
-  grid-template-columns: 25 25% 25% 25%;
-  grid-template-rows:1% 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows:25% 25% 25% 25%;
   grid-template-areas:
     "header header header header"
     "nav nav nav nav"
@@ -93,3 +93,90 @@ li a:hover {
 .active {
   background-color: red;
 }
+#window{
+  margin-left: 20%;
+
+height: 450px;
+width: 800px;
+
+
+}
+#imgs{
+
+
+
+  height: 450px;
+  width: 2400px;
+  position: relative;
+}
+#buttons{
+width: 200px;
+display: flex;
+
+}
+#button {
+
+  display: none;
+  background-color: DodgerBlue;
+   border: none;
+  border-radius: 20px;
+   color: white;
+   padding: 4px 8px;
+   font-size: 25px;
+   cursor: pointer;
+   outline: none;
+   border:0px;
+
+}
+
+#button2 {
+
+  display: none;
+  background-color: DodgerBlue;
+   border: none;
+   border-radius: 20px;
+   color: white;
+   padding: 4px 8px;
+   font-size: 25px;
+   cursor: pointer;
+   outline: none;
+   float:right;
+
+}
+
+#dot1 {
+
+  display: none;
+   border: none;
+   border-radius: 20px;
+   color: white;
+   padding: 4px 8px;
+   font-size: 25px;
+   cursor: pointer;
+   outline: none;
+   float:right;
+  }
+   #dot2 {
+
+     display: none;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      padding: 4px 8px;
+      font-size: 25px;
+      cursor: pointer;
+      outline: none;
+      float:right;
+    }
+    #dot3 {
+
+      display: none;
+       border: none;
+       border-radius: 20px;
+       color: white;
+       padding: 4px 8px;
+       font-size: 25px;
+       cursor: pointer;
+       outline: none;
+       float:right;
+     }
