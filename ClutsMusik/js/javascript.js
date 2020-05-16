@@ -4,23 +4,23 @@ $("#button2").show();
 
 
 var kör;
-kör = setInterval(auto, 5000);
+kör = setInterval(auto, 10000);
 function auto(){
   var slider = $("#imgs");
 
   if (plats==0) {
-    slider.animate({right:"+=804"},1000)
+    slider.animate({right:"+=804"},2000)
 
     plats++;
 
 
   }else if (plats==1) {
-    slider.animate({right:"+=804"},1000)
+    slider.animate({right:"+=804"},2000)
 
     plats++;
 
   }else if (plats==2) {
-    slider.animate({right:"-=1608"},1000)
+    slider.animate({right:"-=1608"},2000)
 
     plats=0;
 
@@ -34,18 +34,18 @@ $("#button2").click(function(){
 var slider = $("#imgs");
 
 if (plats==0) {
-  slider.animate({right:"+=804"},1000)
+  slider.animate({right:"+=804"},2000)
 
   plats++;
 
 
 }else if (plats==1) {
-  slider.animate({right:"+=804"},1000)
+  slider.animate({right:"+=804"},2000)
 
   plats++;
 
 }else if (plats==2) {
-  slider.animate({right:"-=1608"},1000)
+  slider.animate({right:"-=1608"},2000)
 
   plats=0;
 
@@ -56,21 +56,21 @@ $("#button").click(function(){
 
 var slider = $("#imgs");
 if (plats==0) {
-  slider.animate({right:"+=1608"},1000)
+  slider.animate({right:"+=1608"},2000)
 
 
   plats=2;
 
 
 }else if (plats==1) {
-  slider.animate({right:"-=804"},1000)
+  slider.animate({right:"-=804"},2000)
 
 
   plats--;
 
 
 }else if (plats==2) {
-  slider.animate({right:"-=804"},1000)
+  slider.animate({right:"-=804"},2000)
 
 
   plats--;
