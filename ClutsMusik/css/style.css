@@ -126,3 +126,89 @@ width: 800px;
 
 
 }
+*{
+
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+text-decoration: none;
+
+}
+#gitarrer{
+  display: flex;
+
+}
+
+.gitarr{
+  overflow: hidden;
+
+  background-color: lightgrey;
+  padding-top: 5px;
+
+
+}
+.gitarr1{
+  overflow: hidden;
+
+  background-color: lightgrey;
+  padding-top: 5px;
+
+}
+.gitarr2{
+  overflow: hidden;
+
+  background-color: lightgrey;
+  padding-top: 5px;
+
+}
+.bild{
+
+  float: left;
+  overflow: hidden;
+}
+.bild img{
+  width: 100%;
+}
+.info{
+float: left;
+padding: 10px;
+}
+.info span{
+  display: block;
+  overflow: hidden;
+  margin: 2px 0;
+
+}
+.desc{
+  font-size: 10px;
+  color: red;
+}
+.pris{
+  color: #e74c3c;
+  font-size: 20px;
+  font-weight: 700;
+}
+.info span a{
+display: block;
+float: left;
+padding: 1px 2px;
+margin-right: 3px;
+border: 2px solid;
+color: #e74c3c;
+font-size: 15px;
+border-radius: 8px;
+}
+.läggtill{
+
+  font-size: 24px;
+  color: white;
+  background: #e74c3c;
+  display: block;
+  float: left;
+  padding: 6px;
+  text-align: center;
+  margin: 8px 0;
+}
+.läggtill:hover{
+  opacity: 0.7;
+}
