@@ -95,6 +95,9 @@ li a:hover {
 .active {
   background-color: red;
 }
+#shop{
+  float: right;
+}
 #window{
   margin-left: 20%;
 
