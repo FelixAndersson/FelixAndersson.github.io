@@ -42,35 +42,7 @@ footer {
 
 }
 
-#wrapper {
-  height:100vh;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows:10% 7% auto 10%;
-  grid-template-areas:
-    "header header header header"
-    "nav nav nav nav"
-    "main main main main"
-    "footer footer footer footer";
-}
-@media only screen and (max-width: 800px) {
-  main div{
-    width: 45%;
-    height: 15%;
-  }
 
-  #wrapper {
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 20% auto 5%;
-    grid-template-areas:
-    "header"
-    "nav"
-    "main"
-    "footer";
-
-  }
-
-}
 nav {
   list-style-type: none;
   margin: 0;
@@ -105,6 +77,8 @@ li a:hover {
 
 height: 450px;
 width: 800px;
+display: flex;
+flex-wrap: wrap;
 
 
 }
@@ -113,6 +87,7 @@ width: 800px;
   height: 450px;
   width: 2500px;
   position: relative;
+
 }
 #buttons{
 
@@ -137,7 +112,9 @@ text-decoration: none;
 
 }
 #gitarrer{
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
 
 }
 
@@ -215,7 +192,7 @@ border-radius: 8px;
   opacity: 0.7;
 }
 #kontaktaid{
-  font-family: sans-serif;
+
   height: 100%;
   width: 100%;
   display: flex;
@@ -226,7 +203,50 @@ border-radius: 8px;
   height: 100%;
 }
 #kontaktainfo{
+  font-family: 'Shadows Into Light', cursive;
   width: 50%;
 
+}
+#wrapper {
+  height:100vh;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows:10% 7% auto 10%;
+  grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "main main main main"
+    "footer footer footer footer";
+}
+@media only screen and (max-width: 800px) {
+  main div{
+    width: 45%;
+    height: 15%;
+  }
 
+  #wrapper {
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 20% auto 5%;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+
+  }
+
+  #gitarrer{
+    margin-left: 25%;
+    width: 50%;
+
+  }
+.gitarr{
+  width:100%;
+}
+.gitarr1{
+  width:100%;
+}
+.gitarr2{
+  width:100%;
+}
 }

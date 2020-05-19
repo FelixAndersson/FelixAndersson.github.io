@@ -2,7 +2,8 @@ $("#window").css("overflow", "hidden");
 $("#button").show();
 $("#button2").show();
 
-
+document.getElementById("window").style.display = "block";
+document.getElementById("window").style.overflow = "hidden";
 var kör;
 kör = setInterval(auto, 10000);
 function auto(){
