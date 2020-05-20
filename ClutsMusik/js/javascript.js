@@ -1,81 +1,21 @@
 $("#window").css("overflow", "hidden");
 $("#button").show();
 $("#button2").show();
+var wi = document.getElementById('window').offsetWidth;
 
 document.getElementById("window").style.display = "block";
 document.getElementById("window").style.overflow = "hidden";
-var kör;
-kör = setInterval(auto, 7000);
-function auto(){
-  var slider = $("#imgs");
+var myIndex = 0;
+carousel();
 
-  if (plats==0) {
-    slider.animate({right:"+=804"},2000)
-
-    plats++;
-
-
-  }else if (plats==1) {
-    slider.animate({right:"+=804"},2000)
-
-    plats++;
-
-  }else if (plats==2) {
-    slider.animate({right:"-=1608"},2000)
-
-    plats=0;
-
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
   }
-  console.log(plats);
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 5000); // Change image every 2 seconds
 }
-var plats = 0;
-
-$("#button2").click(function(){
-
-var slider = $("#imgs");
-
-if (plats==0) {
-  slider.animate({right:"+=804"},2000)
-
-  plats++;
-
-
-}else if (plats==1) {
-  slider.animate({right:"+=804"},2000)
-
-  plats++;
-
-}else if (plats==2) {
-  slider.animate({right:"-=1608"},2000)
-
-  plats=0;
-
-}
-console.log(plats);
-});
-$("#button").click(function(){
-
-var slider = $("#imgs");
-if (plats==0) {
-  slider.animate({right:"+=1608"},2000)
-
-
-  plats=2;
-
-
-}else if (plats==1) {
-  slider.animate({right:"-=804"},2000)
-
-
-  plats--;
-
-
-}else if (plats==2) {
-  slider.animate({right:"-=804"},2000)
-
-
-  plats--;
-
-}
-console.log(plats);
-});

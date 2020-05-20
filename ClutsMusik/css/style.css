@@ -10,9 +10,9 @@ background-image: url('../imgs/backgrunden.png');
 }
 #logga{
   margin-left: 45%;
-  margin-top: -2%;
-  width: 150px;
-  height:100px;
+
+  width: 140px;
+  height:80px;
 
 background: url('../imgs/loggaclut.png') 0 0;
 
@@ -72,20 +72,14 @@ li a:hover {
   float: right;
 }
 #window{
-  margin-left: 20%;
 
-height: 450px;
-width: 800px;
-display: flex;
-flex-wrap: wrap;
+width: 100%;
 
 
 }
+.mySlides {display:none;}
 #imgs{
 
-  height: 450px;
-  width: 2500px;
-  position: relative;
 
 }
 #buttons{
