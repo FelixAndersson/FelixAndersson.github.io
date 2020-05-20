@@ -5,7 +5,7 @@ $("#button2").show();
 document.getElementById("window").style.display = "block";
 document.getElementById("window").style.overflow = "hidden";
 var kör;
-kör = setInterval(auto, 10000);
+kör = setInterval(auto, 7000);
 function auto(){
   var slider = $("#imgs");
 

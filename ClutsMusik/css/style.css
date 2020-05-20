@@ -1,6 +1,5 @@
 
 body{
-
 }
 
 header {
@@ -107,7 +106,7 @@ flex-wrap: wrap;
 
 margin: 0;
 padding: 0;
-font-family: sans-serif;
+
 text-decoration: none;
 
 }
@@ -192,6 +191,7 @@ border-radius: 8px;
   opacity: 0.7;
 }
 #kontaktaid{
+  font-family: 'Roboto', sans-serif;
 
   height: 100%;
   width: 100%;
@@ -238,6 +238,7 @@ border-radius: 8px;
   #gitarrer{
     margin-left: 25%;
     width: 50%;
+    font-family: sans-serif;
 
   }
 .gitarr{
