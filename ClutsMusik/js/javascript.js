@@ -12,7 +12,7 @@ function auto(){
 
   if (plats==0) {
     var wi = document.getElementById('window').offsetWidth;
-    slider.animate({right::(wi-wi)+wi},2000)
+    slider.animate({right:wi},2000)
 
     plats++;
 
