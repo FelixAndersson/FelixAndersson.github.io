@@ -83,3 +83,19 @@ if (plats==0) {
 }
 console.log(plats);
 });
+
+
+var hand = [];
+$(".lefthands").click(function(){
+  if (!hand.includes(this.id)) {
+    document.getElementById(this.id).style.backgroundColor = "yellow";
+    hand.push(this.id);
+  }
+  else  {
+    document.getElementById(this.id).style.backgroundColor = "white";
+  var index = hand.indexOf(this.id);
+  if (index !== -1) hand.splice(index, 1);
+  }
+  localStorage.setItem("p", JSON.stringify(lefthandses));
+});
+var storedNames = JSON.parse(localStorage.getItem("p"));
