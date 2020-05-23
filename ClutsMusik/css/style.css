@@ -115,9 +115,10 @@ text-decoration: none;
 
 }
 #gitarrer{
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
+  margin-left: 10%;
 
 }
 
@@ -137,6 +138,27 @@ text-decoration: none;
 
 }
 .gitarr2{
+  overflow: hidden;
+
+  background-color: lightgrey;
+  padding-top: 5px;
+
+}
+.gitarr3{
+  overflow: hidden;
+
+  background-color: lightgrey;
+  padding-top: 5px;
+
+}
+.gitarr4{
+  overflow: hidden;
+
+  background-color: lightgrey;
+  padding-top: 5px;
+
+}
+.gitarr5{
   overflow: hidden;
 
   background-color: lightgrey;
@@ -230,7 +252,7 @@ border-radius: 8px;
 
   #wrapper {
     grid-template-columns: 100%;
-    grid-template-rows: 10% 20% auto 5%;
+    grid-template-rows: 10% 10% auto 5%;
     grid-template-areas:
     "header"
     "nav"
@@ -252,6 +274,15 @@ border-radius: 8px;
   width:100%;
 }
 .gitarr2{
+  width:100%;
+}
+.gitarr3{
+  width:100%;
+}
+.gitarr4{
+  width:100%;
+}
+.gitarr5{
   width:100%;
 }
 }
