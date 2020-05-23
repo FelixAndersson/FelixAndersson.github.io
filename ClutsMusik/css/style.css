@@ -252,7 +252,7 @@ border-radius: 8px;
 
   #wrapper {
     grid-template-columns: 100%;
-    grid-template-rows: 10% 10% auto 5%;
+    grid-template-rows: 6% 7% auto 5%;
     grid-template-areas:
     "header"
     "nav"
