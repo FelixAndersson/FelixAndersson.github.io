@@ -10,9 +10,7 @@ if (m==true) {
   $("#beställningsidacontainer").show();
 
 }
-else {
 
-}
 
 
 
