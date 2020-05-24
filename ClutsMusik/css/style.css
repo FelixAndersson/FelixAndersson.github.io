@@ -374,6 +374,14 @@ a {
 
   border: 1px solid black;
 }
+#draga5, #draga6 {
+  float: left;
+  width: 102px;
+  height: 102px;
+  margin: 10px;
+
+  border: 1px solid black;
+}
 #introduktion{
     font-family: Arial;
     width: 100%;
