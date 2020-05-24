@@ -6,10 +6,8 @@ function mobil() {
 var m=mobil();
 if (m==true) {
 
-  $("#drag1").hide();
-  $("#drag2").hide();
-  $("#drag3").show();
-  $("#drag4").show();
+  $("#draganddropp").hide();
+  $("#beställningsidacontainer").show();
 
 }
 else {
@@ -20,9 +18,9 @@ else {
 
 
 $("#window").css("overflow", "hidden");
-$("#button").show();
-$("#button2").show();
+$("#beställningsidacontainer").hide();
 $(".lefthands").show();
+$("#draganddropp").show();
 
 
 

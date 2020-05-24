@@ -34,8 +34,23 @@
       </div>
 
   </div>
-  <h2>Är du intresserad?</h2>
-<p>Gitarr strängar: 58kr</p>
+  <div id="beställningsidacontainer">
+
+    <h4 id=rubriker3>Lägg till extratillval</h4>
+      <input type="radio" class="mobilknapp" name="sträng" value="sträng">
+      <label  class="mobil">Gitarr strängar, 58kr</label><br>
+      <input type="radio" class="mobilknapp" name="kabel" value="kabel">
+      <label  class="mobil">Gitarr kabel, 200kr</label><br>
+      <input type="radio" class="mobilknapp" name="högtaltre" value="högtalare">
+      <label  class="mobil">Högtalare</label>
+
+
+</div>
+
+  <div id="draganddropp">
+  <h2>Är du intresserad? Dra för att lägga till</h2>
+<p>Gitarr strängar: 58kr, Kabel: 200kr</p>
+
 
   <div id="draga1" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img src="imgs/gitarrsträngar.jpg" draggable="true" ondragstart="drag(event)" id="drag1" alt="draganddrop">
@@ -44,11 +59,13 @@
   <div id="draga2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
   <div id="draga3" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img src="imgs/gitarrsträngar.jpg" draggable="true" ondragstart="drag(event)" id="drag2" alt="draganddrop">
+
+  <img src="imgs/kabel gatarr.png" draggable="true" ondragstart="drag(event)" id="drag2" alt="draganddrop">
   </div>
 
   <div id="draga4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
+</div>
 
   <div class="row">
     <div class="col-75">
