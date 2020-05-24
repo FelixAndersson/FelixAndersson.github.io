@@ -66,6 +66,6 @@ $(".lefthands").click(function(){
   var index = hand.indexOf(this.id);
   if (index !== -1) hand.splice(index, 1);
   }
-  localStorage.setItem("p", JSON.stringify(lefthandses));
+  localStorage.setItem("p", JSON.stringify(hand));
 });
 var storedNames = JSON.parse(localStorage.getItem("p"));

@@ -214,7 +214,7 @@ padding: 10px;
 .laggtill:hover{
   opacity: 0.7;
 }
-#righthand{
+.righthands{
   background-color: lightgray;
   display: block;
   float: left;
@@ -225,7 +225,7 @@ padding: 10px;
   font-size: 15px;
   border-radius: 8px;
 }
-#lefthand{
+.lefthands{
     background-color: lightgray;
     display: block;
     float: left;
@@ -338,15 +338,24 @@ a {
   border: 1px solid lightgrey;
   border-radius: 3px;
   width: 100%;
+  display: flex;
 
 }
 
 #draga1, #draga2 {
   float: left;
-  width: 100px;
-  height: 100px;
+  width: 102px;
+  height: 102px;
   margin: 10px;
-  padding: 10px;
+
+  border: 1px solid black;
+}
+#draga3, #draga4 {
+  float: left;
+  width: 102px;
+  height: 102px;
+  margin: 10px;
+
   border: 1px solid black;
 }
 #introduktion{
