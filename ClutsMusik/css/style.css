@@ -68,9 +68,7 @@ li a:hover {
 .active {
   background-color: red;
 }
-#shop{
-  float: right;
-}
+
 #window{
   margin-left: 12%;
 
@@ -359,7 +357,6 @@ a {
         width: 100%;
 }#glidskala{
     font-family: Arial;
-        width: 100%;
 }
 
 
